@@ -1,5 +1,5 @@
-import random
-import string
+import random as random
+import string as string
 
 def generate_password(length):
     # Define character sets
@@ -7,7 +7,7 @@ def generate_password(length):
     digits = string.digits
     symbols = string.punctuation
 
-    # Combine all characters
+    # Combine all character
     all_chars = letters + digits + symbols
 
     # Generate random password
